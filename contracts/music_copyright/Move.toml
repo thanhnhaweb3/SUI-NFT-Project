@@ -1,0 +1,14 @@
+[package]
+name = "music_copyright"
+version = "0.0.1"
+edition = "2024.beta"
+
+[dependencies]
+# Pull Sui framework from official repo for standalone builds
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "testnet" }
+
+[addresses]
+music_copyright = "0x0"
+
+
+

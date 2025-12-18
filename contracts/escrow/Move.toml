@@ -1,0 +1,11 @@
+[package]
+name = "escrow"
+version = "0.0.1"
+edition = "2024.beta"
+
+[dependencies]
+# Use Sui framework from the official repo (works outside the monorepo layout)
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "testnet" }
+
+[addresses]
+escrow = "0x0"
